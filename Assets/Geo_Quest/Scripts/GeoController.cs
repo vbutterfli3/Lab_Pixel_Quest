@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GeoController : MonoBehaviour
 {
@@ -24,26 +25,35 @@ public class GeoController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Hit");
+        switch (collision.tag)
+        {
+            case "Death":
+                {
+                    string thislevel = SceneManager.GetActiveScene().name;
+                    SceneManager.LoadScene(thislevel);
+                    break;
+                }
+            }
+        }
+
+
+        /*
+         {
+
+       Debug.Log(xInput);
+
+
+        if (Input.GetKeyDown(KeyCode.W))
+            transform.position += new Vector3(0, 1, 0);
+        if (Input.GetKeyDown(KeyCode.S))
+            transform.position += new Vector3(0, -1, 0);
+        if (Input.GetKeyDown(KeyCode.D))
+            transform.position += new Vector3(1, 0, 0);
+        if (Input.GetKeyDown(KeyCode.A))
+            transform.position += new Vector3(-1, 0, 0);
+            } 
+           */
     }
 
-
-    /*
-     {
-
-   Debug.Log(xInput);
-
-
-    if (Input.GetKeyDown(KeyCode.W))
-        transform.position += new Vector3(0, 1, 0);
-    if (Input.GetKeyDown(KeyCode.S))
-        transform.position += new Vector3(0, -1, 0);
-    if (Input.GetKeyDown(KeyCode.D))
-        transform.position += new Vector3(1, 0, 0);
-    if (Input.GetKeyDown(KeyCode.A))
-        transform.position += new Vector3(-1, 0, 0);
-        } 
-       */
-}
 
 
