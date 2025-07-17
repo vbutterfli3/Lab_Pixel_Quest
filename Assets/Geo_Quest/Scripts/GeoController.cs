@@ -8,14 +8,15 @@ using UnityEngine.SceneManagement;
 public class GeoController : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private SpriteRenderer sp;
     public int speed = 4;
-    public string nextLevel = "Scene2";
+    public string nextLevel = "Level2";
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        sp = GetComponent<SpriteRenderer>();
 
     }
 
@@ -24,6 +25,24 @@ public class GeoController : MonoBehaviour
     {
         float xInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(xInput * speed, rb.velocity.y);
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            sp.color = Color.red;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            sp.color = Color.blue;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            sp.color = Color.magenta;
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
