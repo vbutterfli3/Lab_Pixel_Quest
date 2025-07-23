@@ -45,7 +45,7 @@ public class PlayerJump : MonoBehaviour
         }
 
      // Falling
-        if (rb.velocity.x < 0 && !WaterCheck)
+        if (rb.velocity.x < 0 && ! WaterCheck)
         {
             rb.velocity += GravityVector * (FallForce * Time.deltaTime);
         }

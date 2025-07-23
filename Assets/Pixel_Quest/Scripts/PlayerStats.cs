@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 
 {
-    public string nextLevel = "Level2";
+   // public string nextLevel = "Level2";
     private int CoinCounter = 0;
-    private int Health = 0;
+    public int Health = 3;
     public Transform RespawnPoint;
 
     // Start is called before the first frame update
@@ -37,6 +38,7 @@ public class PlayerStats : MonoBehaviour
 
             case "Finish":
                 {
+                    string nextLevel = collision.transform.GetComponent<LevelGoal>().nextLevel;
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }
