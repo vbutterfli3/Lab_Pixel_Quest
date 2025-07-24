@@ -11,11 +11,14 @@ public class PlayerStats : MonoBehaviour
     private int CoinCounter = 0;
     public int Health = 3;
     public Transform RespawnPoint;
+    public int maxHealth = 3;
+    private PlayerUIController playerUIcontroller;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerUIcontroller = GetComponent<PlayerUIController>();
+        playerUIcontroller.UpdateHealth(Health, maxHealth);
     }
 
     // Update is called once per frame
@@ -27,8 +30,9 @@ public class PlayerStats : MonoBehaviour
             case "Death":
                 {
                     Health--;
+                    playerUIcontroller.UpdateHealth(Health, maxHealth);
                     if (Health <= 0)
-                    {
+                    {  
                         string thislevel = SceneManager.GetActiveScene().name;
                         SceneManager.LoadScene(thislevel);
                     }
@@ -54,6 +58,7 @@ public class PlayerStats : MonoBehaviour
                 {
                     if (Health < 3)
                     {
+                        playerUIcontroller.UpdateHealth(Health, maxHealth);
                         Health++;
                         Destroy(collision.gameObject);
                     }
