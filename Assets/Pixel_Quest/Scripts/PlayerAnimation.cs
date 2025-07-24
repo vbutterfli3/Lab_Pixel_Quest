@@ -23,11 +23,11 @@ public class PlayerAnimation : MonoBehaviour
         float horizontal = Input.GetAxis("Horizontal");
         if (horizontal ==0)
         {
-            animator.SetBool("isWalking", false);
+            animator.SetBool("IsWalking", false);
         }
         else
         {
-            animator.SetBool("isWalking", true);
+            animator.SetBool("IsWalking", true);
         }
     }
 }
