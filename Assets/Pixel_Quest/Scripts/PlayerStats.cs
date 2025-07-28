@@ -8,7 +8,8 @@ public class PlayerStats : MonoBehaviour
 
 {
    // public string nextLevel = "Level2";
-    private int CoinCounter = 0;
+    public int CoinCounter = 0;
+    private int coinsInLevel = 0;
     public int Health = 3;
     public Transform RespawnPoint;
     public int maxHealth = 3;
@@ -17,9 +18,11 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        coinsInLevel = GameObject.Find("Coins").transform.childCount;
         playerUIcontroller = GetComponent<PlayerUIController>();
         playerUIcontroller.UpdateHealth(Health, maxHealth);
-    }
+        playerUIcontroller.UpdateCoin(CoinCounter + "/" + coinsInLevel);
+}
 
     // Update is called once per frame
    
@@ -38,7 +41,7 @@ public class PlayerStats : MonoBehaviour
                     }
                     else { transform.position = RespawnPoint.position; }
                     break;
-                }
+               }
 
             case "Finish":
                 {
@@ -50,6 +53,7 @@ public class PlayerStats : MonoBehaviour
             case "Coin":
                 {
                     CoinCounter++;
+                    playerUIcontroller.UpdateCoin(CoinCounter + "/" + coinsInLevel);
                     Destroy(collision.gameObject);
                     break;
                 }
