@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+public class LevelGoal : MonoBehaviour
 {
+    public string nextLevel = "Level2";
     // Start is called before the first frame update
     void Start()
     {
