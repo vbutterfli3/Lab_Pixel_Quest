@@ -6,20 +6,24 @@ using TMPro;
 
 public class PlayerUIController : MonoBehaviour
  {
-  public Image heartImage;
+  public Image pizzaImage;
     public TextMeshProUGUI coinText;
 
 // Start is called before the first frame update
    public void Start()
   {
-      heartImage = GameObject.Find("heart1").GetComponent<Image>();
+      pizzaImage = GameObject.Find("PizzaUI").GetComponent<Image>();
       coinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
     }
 
 // Update is called once per frame
   public void UpdateHealth(float currentHealth, float maxHealth)
-  {
-  heartImage.fillAmount = currentHealth / maxHealth;
+    {
+        if(pizzaImage != null)
+        {
+            pizzaImage.fillAmount = currentHealth / maxHealth;
+        }
+ 
    }
 
     public void UpdateCoin(string newText)
