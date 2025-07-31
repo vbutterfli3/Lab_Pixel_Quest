@@ -148,8 +148,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.023, y: 0.015, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 4, y: 4, z: 1.3333334}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1886234268199239011}
   - {fileID: 113029250228702061}
@@ -164,7 +164,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8723875974880456258}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: a3b0825a5e80fe84aa65f2a9a94777fb, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f9114485cdd2214c9f7d3e64753403c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: 5
+  JumpForce: 7
   FallForce: 5
   CapsuleHeight: 0.25
   CapsuleRadius: 0.08
