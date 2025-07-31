@@ -10,9 +10,9 @@ public class PlayerStats : MonoBehaviour
    // public string nextLevel = "Level2";
     public int CoinCounter = 0;
     private int coinsInLevel = 0;
-    public int Health = 3;
+    public int Health = 4;
     public Transform RespawnPoint;
-    public int maxHealth = 3;
+    public int maxHealth = 4;
     private PlayerUIController playerUIcontroller;
 
     // Start is called before the first frame update
@@ -60,7 +60,7 @@ public class PlayerStats : MonoBehaviour
 
             case "Health":
                 {
-                    if (Health < 3)
+                    if (Health < 4)
                     {
                         playerUIcontroller.UpdateHealth(Health, maxHealth);
                         Health++;
