@@ -7,7 +7,7 @@ public class PlayerJump : MonoBehaviour
     private Rigidbody2D rb;
 
     // Forces
-    public float JumpForce = 10f;
+    public float JumpForce = 5f;
     public float FallForce = 5;
     private Vector2 GravityVector;
 
