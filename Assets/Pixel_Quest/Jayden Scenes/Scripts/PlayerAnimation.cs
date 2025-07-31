@@ -20,11 +20,11 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (_rigidbody2D.velocity.x != 0)
         {
-            _animator.SetBool("isWalking", false);
+            _animator.SetBool("isWalking", true);
         }
         else
         {
-            _animator.SetBool("isWalking", true);
+            _animator.SetBool("isWalking", false);
         }
     }
 }
