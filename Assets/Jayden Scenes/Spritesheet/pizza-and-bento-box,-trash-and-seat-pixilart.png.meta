@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 345ff2a3308b24a40a97586f898ecf87
+guid: 1a73fb5bb9a05254e8cf4b2bd93abfbf
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,17 +93,198 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite (2)_0
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c311cd4cbfc7755498aad3fec37ab935
+      internalID: -782048346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda86f292e071d14aaaf2f2005b8da00
+      internalID: 117485793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 83
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5043fab0726d84a88dbe072d803af0
+      internalID: -1108317416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e762deba7fdac40bece074d7860f34
+      internalID: 1736344944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5495c2911822342acd3cd43a8d56db
+      internalID: -1930513328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb144927165884db813221a5ab49e9
+      internalID: 521464758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14c4a8c52e6ed3419c3d664004109c3
+      internalID: -890447278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc957b0ad8c184492812ff528cbe73
+      internalID: 2093674171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_8
       rect:
         serializedVersion: 2
         x: 3
-        y: 81
-        width: 15
-        height: 15
+        y: 36
+        width: 53
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b85fa9f6d95cd4ba68c76942fbaa3f
-      internalID: 1520207164
+      spriteID: 33f383c481a53804794890236606627c
+      internalID: -939509854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite (2)_1
+      name: pizza-and-bento-box,-trash-and-seat-pixilart_9
       rect:
         serializedVersion: 2
-        x: 24
-        y: 81
-        width: 30
-        height: 15
+        x: 62
+        y: 5
+        width: 32
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,281 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b639f976665a54e82c110cafb12587
-      internalID: -951124768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_2
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 81
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63cff8364586a7e4cb923d3d2b5c3c20
-      internalID: 130316404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_3
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 81
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03622bcc50aa2c142a841eb21e8aa49c
-      internalID: 655465174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 64
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d89e632efbec25846bbfdbe096941e58
-      internalID: 2145657313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_5
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 64
-        width: 30
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7adcb1b4c41008740b31404f3540c233
-      internalID: 855494892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_6
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 64
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89e3e85c85519c64bb37fa9b1a11ad3a
-      internalID: -312996290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_7
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 64
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: faa29a12051952e44b936c59dd9b9f55
-      internalID: 1279517466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_8
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 58
-        width: 30
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c4653163adea404cba220da56bfdb2c
-      internalID: -1869648015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_9
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 48
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4a6cd848154aec418de1878168cce69
-      internalID: 827430951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_10
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 48
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55d008fe695bad1489f5b517f556da65
-      internalID: -879025544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_11
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 10
-        width: 28
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5455dc081c51d0e4baf70fd551c81d34
-      internalID: -1200980230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_12
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 32
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc9b3566b71eccc4b923193fbfec9487
-      internalID: 1137450907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_13
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 9
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f548bfd4f20a9774f9142cc6009ed1e1
-      internalID: 1437552695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (2)_14
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 9
-        width: 28
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fde91316480cd9741bb106dd400ad536
-      internalID: 684787094
+      spriteID: f2772a23b902fce4096a5e566c87f736
+      internalID: 572417326
       vertices: []
       indices: 
       edges: []
@@ -422,21 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite (2)_0: 1520207164
-      pixilart-sprite (2)_1: -951124768
-      pixilart-sprite (2)_10: -879025544
-      pixilart-sprite (2)_11: -1200980230
-      pixilart-sprite (2)_12: 1137450907
-      pixilart-sprite (2)_13: 1437552695
-      pixilart-sprite (2)_14: 684787094
-      pixilart-sprite (2)_2: 130316404
-      pixilart-sprite (2)_3: 655465174
-      pixilart-sprite (2)_4: 2145657313
-      pixilart-sprite (2)_5: 855494892
-      pixilart-sprite (2)_6: -312996290
-      pixilart-sprite (2)_7: 1279517466
-      pixilart-sprite (2)_8: -1869648015
-      pixilart-sprite (2)_9: 827430951
+      pizza-and-bento-box,-trash-and-seat-pixilart_0: -782048346
+      pizza-and-bento-box,-trash-and-seat-pixilart_1: 117485793
+      pizza-and-bento-box,-trash-and-seat-pixilart_2: -1108317416
+      pizza-and-bento-box,-trash-and-seat-pixilart_3: 1736344944
+      pizza-and-bento-box,-trash-and-seat-pixilart_4: -1930513328
+      pizza-and-bento-box,-trash-and-seat-pixilart_5: 521464758
+      pizza-and-bento-box,-trash-and-seat-pixilart_6: -890447278
+      pizza-and-bento-box,-trash-and-seat-pixilart_7: 2093674171
+      pizza-and-bento-box,-trash-and-seat-pixilart_8: -939509854
+      pizza-and-bento-box,-trash-and-seat-pixilart_9: 572417326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
