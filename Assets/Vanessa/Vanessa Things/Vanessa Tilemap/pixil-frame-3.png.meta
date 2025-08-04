@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8106fa9c8b8f59347bcc2cf5f8ea0de9
+guid: 53cbdac8085435c43aa75610371ffa2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 12
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,22 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TimSquaure_0
+      name: pixil-frame-3_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 42
-        width: 190
-        height: 56
+        x: 8
+        y: 53
+        width: 25
+        height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 2, z: 0, w: 1}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e166563f7357c44bffac16186a1d54
-      internalID: 1281709300
+      spriteID: d34fed7f31e8a9d47a2e4e7838af2931
+      internalID: -806619806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-3_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4cbe4d7b492f1448c4c8cf2a2eb97e
+      internalID: -126280954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-3_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca73110a3e9648468c123c5e09ba6ba
+      internalID: 1588998973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-frame-3_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fae446c33cf6846ae486f8ec0a6aa7
+      internalID: 630961823
       vertices: []
       indices: 
       edges: []
@@ -141,7 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TimSquaure_0: 1281709300
+      pixil-frame-3_0: -806619806
+      pixil-frame-3_1: -126280954
+      pixil-frame-3_2: 1588998973
+      pixil-frame-3_3: 630961823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
