@@ -8,7 +8,7 @@ public class TrainMovement : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.GetComponent<PlayerStats>().RespawnPoint();
+            //other.GetComponent<PlayerStats>().RespawnPoint();
 
 
             // Unfreeze player after respawning
