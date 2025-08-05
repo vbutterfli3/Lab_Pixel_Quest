@@ -20,6 +20,7 @@ public class PlayerStats : MonoBehaviour
     {
         coinsInLevel = GameObject.Find("Coins").transform.childCount;
         playerUIcontroller = GetComponent<PlayerUIController>();
+        playerUIcontroller.UIStart();
         playerUIcontroller.UpdateHealth(Health, maxHealth);
         playerUIcontroller.UpdateCoin(CoinCounter + "/" + coinsInLevel);
 }

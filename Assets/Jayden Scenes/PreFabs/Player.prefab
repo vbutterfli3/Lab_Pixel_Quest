@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 7982286017357717885}
   - component: {fileID: 4861949651383204636}
   - component: {fileID: 2441670943183521755}
+  - component: {fileID: 1413513725659567517}
   - component: {fileID: 1345750413978376861}
   m_Layer: 0
   m_Name: Player
@@ -148,7 +149,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.023, y: 0.015, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1.3333334}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 1.1666667}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1886234268199239011}
@@ -164,7 +165,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8723875974880456258}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a2e345d910e27ee4daba039b2c96cf29, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -293,6 +294,22 @@ MonoBehaviour:
   GroundMask:
     serializedVersion: 2
     m_Bits: 128
+--- !u!114 &1413513725659567517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8723875974880456258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4f48226cc5c7c4bbc4280915476eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinCounter: 0
+  Health: 4
+  RespawnPoint: {fileID: 0}
+  maxHealth: 4
 --- !u!114 &1345750413978376861
 MonoBehaviour:
   m_ObjectHideFlags: 0

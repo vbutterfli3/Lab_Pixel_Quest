@@ -21,7 +21,7 @@ public class PlayerJump : MonoBehaviour
     private bool GroundCheck;
 
     // Water Check
-    private bool WaterCheck;
+    public bool WaterCheck;
     private string WaterTag = "Water";
 
 
