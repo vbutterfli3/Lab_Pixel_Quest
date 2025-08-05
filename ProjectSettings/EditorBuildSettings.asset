@@ -27,8 +27,14 @@ EditorBuildSettings:
     path: Assets/Kai/Kai Scenes/Tokyo.unity
     guid: d97216f92d36e8346bdcd68f8646474d
   - enabled: 1
+    path: Assets/Jayden Scenes/KaiEndTransition.unity
+    guid: 84418fd7f6d692a4e87243d6fc544f8e
+  - enabled: 1
     path: Assets/Madina/Madina Scenes/MadinaScene.unity
     guid: 0f27e18766710574db03de5bc32adf9c
+  - enabled: 1
+    path: Assets/Jayden Scenes/MadinaEndTransition.unity
+    guid: b0d1c3b2ccc342043bfc601b9e3531b5
   - enabled: 1
     path: Assets/Vanessa/Vanessa Things/Vanessa Scenes/VanessaSceneTimeSq.unity
     guid: b3ec2e276e1643c4dbe85ee4955e1434
