@@ -47,6 +47,4 @@ public class RatEnemyController : MonoBehaviour
         transform.localScale = new Vector3(direction, 1, 1);
     }
 
-
-
 }
