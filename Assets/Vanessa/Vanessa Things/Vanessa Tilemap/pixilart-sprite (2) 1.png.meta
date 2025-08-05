@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 86235839360ad424cab2348b3a07052f
+guid: 20d4d43d4bbf77249a7460d898b14b5e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite(1)_0
+      name: pixilart-sprite (2) 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 4
+        y: 30
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84994450976bf4d478c644ed0f3df79a
-      internalID: -190076126
+      spriteID: b1988641f0713794bb03b2c857bcbc29
+      internalID: 1036211930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite(1)_1
+      name: pixilart-sprite (2) 1_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 100
-        height: 100
+        x: 116
+        y: 30
+        width: 68
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bfe14b5643069a429a04e74d88c5508
-      internalID: 335851012
+      spriteID: b9047dd342eb72c42803e0c617adfc51
+      internalID: 589138152
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite(1)_0: -190076126
-      pixilart-sprite(1)_1: 335851012
+      pixilart-sprite (2) 1_0: 1036211930
+      pixilart-sprite (2) 1_1: 589138152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

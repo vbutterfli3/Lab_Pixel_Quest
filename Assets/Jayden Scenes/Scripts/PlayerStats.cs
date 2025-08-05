@@ -18,8 +18,13 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        coinsInLevel = GameObject.Find("Coins").transform.childCount;
+        if(GameObject.Find("Coins") != null)
+        {
+            coinsInLevel = GameObject.Find("Coins").transform.childCount;
+        }
+        
         playerUIcontroller = GetComponent<PlayerUIController>();
+        playerUIcontroller.UIStart();
         playerUIcontroller.UpdateHealth(Health, maxHealth);
         playerUIcontroller.UpdateCoin(CoinCounter + "/" + coinsInLevel);
 }
@@ -41,7 +46,7 @@ public class PlayerStats : MonoBehaviour
                     }
                     else { transform.position = RespawnPoint.position; }
                     break;
-               }
+                }
 
             case "Finish":
                 {
@@ -70,7 +75,7 @@ public class PlayerStats : MonoBehaviour
                 }
             case "Respawn":
                 {
-                    RespawnPoint.position = collision.transform.Find("Point").position;
+                    RespawnPoint = collision.transform.Find("Respawn Point");
                     break;
                 }
 

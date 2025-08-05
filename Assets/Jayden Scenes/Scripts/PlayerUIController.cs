@@ -10,21 +10,25 @@ public class PlayerUIController : MonoBehaviour
     public TextMeshProUGUI coinText;
 
 // Start is called before the first frame update
-   public void Start()
-  {
+   public void UIStart()
+   {
       pizzaImage = GameObject.Find("PizzaUI").GetComponent<Image>();
-      coinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
-    }
+        if (GameObject.Find("CoinText") != null)
+        {
+            coinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
+        }
+      
+   }
 
 // Update is called once per frame
   public void UpdateHealth(float currentHealth, float maxHealth)
-    {
+  {
         if(pizzaImage != null)
         {
             pizzaImage.fillAmount = currentHealth / maxHealth;
         }
  
-   }
+  }
 
     public void UpdateCoin(string newText)
     {
