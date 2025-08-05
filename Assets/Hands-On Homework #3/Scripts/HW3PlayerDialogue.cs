@@ -14,10 +14,13 @@ public class HW3PlayerDialogue : MonoBehaviour
 
     private void Start()
     {
-        _talkText = GameObject.Find(HW3Structs.GameObjects.talkText).GetComponent<TextMeshProUGUI>();
+        if (GameObject.Find(HW3Structs.GameObjects.talkText))
+        {
+            _talkText = GameObject.Find(HW3Structs.GameObjects.talkText).GetComponent<TextMeshProUGUI>();
 
-        _talkPanel = GameObject.Find(HW3Structs.GameObjects.talkPanel);
-        _talkPanel.SetActive(false);
+            _talkPanel = GameObject.Find(HW3Structs.GameObjects.talkPanel);
+            _talkPanel.SetActive(false);
+        }
     }
 
     // Update is called once per frame
